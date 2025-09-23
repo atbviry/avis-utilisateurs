@@ -12,7 +12,7 @@
 	<artifactId>avis-utilisateurs</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>avis-utilisateurs</name>
-	<description>Formation spring security</description>
+	<description>Formation spring boot spring security</description>
 	<url/>
 	<licenses>
 		<license/>
