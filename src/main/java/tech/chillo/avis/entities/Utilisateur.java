@@ -36,6 +36,7 @@ public class Utilisateur implements UserDetails {
 	@Column(name = "mot-de_passe")
 	private String mdp;
 	private String nom;
+	@Column(unique = true)
 	private String email;
 	private boolean actif = false;//j'ajoute ce champ pour verifier si le compte de l'utilisateur est actif ou pas
 	@OneToOne(cascade = CascadeType.ALL)
